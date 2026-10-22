@@ -1,0 +1,24 @@
+# Временные файлы компиляции и модификации батников
+*.tmp
+*.bak
+*.backup
+
+# Логи утилиты zapret и драйвера WinDivert
+*.log
+bin/windivert.dll.log
+
+# Специфичные файлы системных папок и кэша Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Проектные файлы текстовых редакторов (Sublime Text, VS Code)
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Исключение случайного архивирования самих исполняемых бинарников утилиты, 
+# если вы случайно скопируете их в папку репозитория
+# winws.exe
+# cygwin1.dll
